@@ -1,1 +1,101 @@
+body {
+    background: url('../image/fondo.jpg') no-repeat center center fixed;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
 
+.login {
+    width: 350px;
+    background: rgba(255,255,255,0.12);
+    color: #222;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 30px 30px 30px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,0.18);
+}
+
+.login h2 {
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25), 10px 5px 10px #000000
+    ;
+}
+.login p {
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25), 10px 5px 10px #000000
+    ;
+}
+
+.login label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 90%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.8);
+    font-size: 15px;
+    color: #222;
+    box-shadow: 0 2px 8px rgba(41,128,185,0.07);
+    outline: none;
+    transition: box-shadow 0.2s;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+    box-shadow: 0 2px 12px rgba(41,128,185,0.15);
+}
+
+.login button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #2980b9;
+    color: #fff;
+    padding: 12px 0;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgba(41,128,185,0.12);
+    transition: background 0.2s;
+    cursor: pointer;
+}
+
+.login a:hover {
+    background: #2574a9;
+}
+.login select {
+    width: 90%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.8);
+    font-size: 15px;
+    color: #222;
+    box-shadow: 0 2px 8px rgba(41,128,185,0.07);
+    outline: none;
+    transition: box-shadow 0.2s;
+}
